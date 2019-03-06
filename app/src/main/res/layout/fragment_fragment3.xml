@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.pmprogect.fragment.map.Fragment3">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/img_view"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/image1"
+        app:civ_border_color="#FF000000"/>
+
+</LinearLayout>

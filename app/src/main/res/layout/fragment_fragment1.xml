@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/TestActivity"
+        style="@style/button_style"
+        android:text="自定义View" />
+
+    <Button
+        android:id="@+id/UmengTestActivity"
+        style="@style/button_style"
+        android:text="友盟测试" />
+
+    <Button
+        android:id="@+id/NoticeActivity"
+        style="@style/button_style"
+        android:text="8.0通知栏适配" />
+
+    <Button
+        android:id="@+id/FlowLayoutActivity"
+        style="@style/button_style"
+        android:text="流式布局" />
+
+    <Button
+        android:id="@+id/MultithreadingActivity"
+        style="@style/button_style"
+        android:text="多线程断点下载App" />
+
+    <Button
+        android:id="@+id/MesaureActivity"
+        style="@style/button_style"
+        android:text="动态设置布局宽高" />
+
+    <Button
+        android:id="@+id/WoolGlassActivity"
+        style="@style/button_style"
+        android:text="毛玻璃效果" />
+
+    <Button
+        android:id="@+id/LitePalActivity"
+        style="@style/button_style"
+        android:text="数据库" />
+
+    <Button
+        android:id="@+id/btn_request"
+        style="@style/button_style"
+        android:text="数据请求" />
+</LinearLayout>

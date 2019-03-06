@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+    android:background="@color/papayawhip"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/user_img"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/image1"
+                app:civ_border_color="#FF000000" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="名字ID"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="时间"
+                    android:textColor="@color/gray"
+                    android:textSize="15sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:text="内容"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/img_big"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/image1" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+
+            <ImageView
+                android:id="@+id/img_1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_toLeftOf="@+id/text_1"
+                android:src="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/text_1"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_toLeftOf="@+id/img_2"
+                android:gravity="center_vertical"
+                android:text="(0)"
+                android:textColor="@color/gray"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/img_2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_toLeftOf="@+id/text_2"
+                android:src="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/text_2"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:gravity="center_vertical"
+                android:text="(0)"
+                android:textColor="@color/gray"
+                android:textSize="18sp" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

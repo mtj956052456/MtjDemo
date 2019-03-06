@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--1)  string：字符串类型；-->
+    <!--2)  integer：整数类型；-->
+    <!--3)  float：浮点型；-->
+    <!--4)  dimension：尺寸，后面必须跟dp、dip、px、sp等单位；-->
+    <!--5)  Boolean：布尔值；-->
+    <!--6)  reference：引用类型，传入的是某一资源的ID，必须以“@”符号开头；-->
+    <!--7)  color：颜色，必须是“#”符号开头；-->
+    <!--8)  fraction：百分比，必须是“%”符号结尾；-->
+    <!--9)  enum：枚举类型-->
+    <attr name="bgColor" format="color"/>
+    <attr name="orientation" format="integer">
+        <enum name="horizontal" value="0" />
+        <enum name="vertical" value="1" />
+    </attr>
+
+    <declare-styleable name="MyView">
+        <attr name="bgColor"/>
+        <attr name="orientation" />
+    </declare-styleable>
+
+</resources>
